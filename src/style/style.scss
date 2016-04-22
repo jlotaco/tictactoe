@@ -1,0 +1,81 @@
+.no-dizmo-drag {
+    -apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#front {
+    width: 100%;
+
+    .tile {
+
+        width: 50px;
+        height: 50px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        position: absolute;
+        
+    }
+}
+#ff {
+    left: 10px;
+    top: 10px;
+}
+#fs {
+    left: 70px;
+    top: 10px;
+}
+#ft {
+
+    left: 130px;
+    top: 10px;
+}
+#sf {
+    left: 10px;
+    top: 70px;
+}
+#ss {
+
+    left: 70px;
+    top: 70px;
+}
+#st {
+
+    left: 130px;
+    top: 70px;
+}
+#tf {
+    left: 10px;
+    top: 130px;
+}
+
+
+#ts {
+    left: 70px;
+    top: 130px;
+}
+
+#tt {
+    left: 130px;
+    top: 130px;
+}
+
+
+#back {
+    .done-btn-wrapper {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+
+        .done-btn {
+            margin-bottom: 20px;
+        }
+    
+    }
+}

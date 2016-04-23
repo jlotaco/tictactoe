@@ -16,8 +16,15 @@ body {
         height: 50px;
         border-style: solid;
         border-width: 1px;
-        border-radius: 3px;
+        border-radius: 5px;
         position: absolute;
+    .xoro {
+        color: #b5cf50;
+        font-size: 50px;
+        font-stretch: expanded;
+        position: absolute;
+        left: 9px;
+    }
         
     }
 }
@@ -62,6 +69,12 @@ body {
 #tt {
     left: 130px;
     top: 130px;
+}
+
+#gamestate {
+    position: absolute;
+    top: 190px;
+    text-align: center;
 }
 
 
